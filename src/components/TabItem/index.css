@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.tabItem-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.tab-item {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  color: #7b8794;
+  font-family: 'roboto';
+}
+
+.button1 {
+  background-color: transparent;
+  border-bottom-width: 2px;
+  border-color: #2563eb;
+  color: #2563eb;
+  font-family: 'roboto';
+
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}

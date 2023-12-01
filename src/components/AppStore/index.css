@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.appStore-bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.image {
+  height: 40px;
+  margin-top: 10px;
+}
+.search-icon {
+  height: 30px;
+}
+
+.app-item {
+  background-color: #fff;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 90px;
+  padding: 10px;
+  width: 90px;
+}
+
+.appSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app-name {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+}
+.input {
+  background: transparent;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  padding-left: 20px;
+}
